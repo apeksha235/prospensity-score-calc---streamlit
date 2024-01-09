@@ -25,4 +25,4 @@ if uploaded_file is not None:
                        file_name='new_data.csv',
                        mime='text/csv')
 else:
-    st.write("Please upload a CSV file to proceed.")
+    st.write("Please upload a CSV file to proceed. REMOVE any index column present in the csv (or it won't work)")
